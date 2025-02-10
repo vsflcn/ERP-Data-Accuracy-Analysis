@@ -3,13 +3,13 @@
 ## Project Description
 This project identifies and analyzes the impact of incorrect unit measurements in ERP systems and demonstrates how correcting these discrepancies leads to a **26% reduction in financial discrepancies**. The analysis focuses on Bill of Materials (BOM) and material usage data, highlighting the financial impact of incorrect unit measurements on total production costs.
 
+![BOM Analysis](BOM_Analysis.png)
+
 ### Key Features:
 - **Data Extraction & Cleaning**: Collects and processes inventory data to ensure accuracy.
 - **Error Detection**: Identifies incorrect unit measurements in ERP.
 - **Financial Impact Assessment**: Measures discrepancies and their financial consequences.
 - **Visualization & Reporting**: Provides clear visual insights and reports on the impact of incorrect data.
-
-![BOM Analysis](BOM_Analysis.png)
 
 ## Technologies Used
 - **SQLite** - Database management
@@ -44,13 +44,21 @@ This project identifies and analyzes the impact of incorrect unit measurements i
    ```
 2. Install required dependencies:
    ```sh
-   pip install pandas matplotlib fpdf openpyxl sqlite3
+   pip install pandas matplotlib openpyxl sqlite3
    ```
-3. Run the script:
+3. Run the first script to create database (create_database folder):
    ```sh
-   python analyze_erp_data.py
+   python create_db.py
    ```
-4. Check the generated reports and visualizations.
+4. After database creation run the query and create .csv file:
+   ```sh
+   sql query.sql
+   ```
+5. With new .csv file run the following analysis script:
+   ```sh
+   python analysis.py
+   ```
+6. Check the generated reports and visualizations.
 
 ## Contribution
 Feel free to contribute by improving the data analysis, adding more accuracy checks, or refining the visualization techniques!
