@@ -39,7 +39,7 @@ This project identifies and analyzes the impact of incorrect unit measurements i
 ## How to Run the Project
 1. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/ERP-Data-Accuracy-Analysis.git
+   git clone https://github.com/vsflcn/ERP-Data-Accuracy-Analysis.git
    ```
 2. Install required dependencies:
    ```sh
