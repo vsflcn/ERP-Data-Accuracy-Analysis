@@ -16,7 +16,6 @@ This project identifies and analyzes the impact of incorrect unit measurements i
 - **Python** - Data processing and analysis
 - **Pandas** - Data manipulation
 - **Matplotlib** - Data visualization
-- **FPDF** - PDF report generation
 - **OpenPyXL** - Excel data handling
 
 ## Data Processing Workflow
