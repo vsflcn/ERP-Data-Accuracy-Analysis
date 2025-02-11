@@ -52,15 +52,11 @@ The aim of this project to show the impact of incorrect unit measurements in ERP
    ```sh
    python create_db.py
    ```
-6. After database creation run the query and create .csv file:
-   ```sh
-   sql query.sql
-   ```
-7. With new .csv file run the following analysis script:
+6. With new .csv file run the following analysis script:
    ```sh
    python analysis.py
    ```
-8. Check the generated reports and visualizations.
+7. Check the generated reports and visualizations.
 
 ## Contribution
 Feel free to contribute by improving this data analysis!
