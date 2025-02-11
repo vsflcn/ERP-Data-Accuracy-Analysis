@@ -3,13 +3,12 @@
 ## Project Description
 The aim of this project to show the impact of incorrect unit measurements in ERP systems and how correcting these discrepancies leads to a **26% reduction in financial discrepancies**. 
 
-![BOM Analysis](BOM_Analysis.png)
-
 ### Key Features:
-- **Data Extraction & Cleaning**: Collects and processes inventory data to ensure accuracy.
-- **Error Detection**: Identifies incorrect unit measurements in ERP.
-- **Financial Impact Assessment**: Measures discrepancies and their financial consequences.
-- **Visualization & Reporting**: Provides clear visual insights and reports on the impact of incorrect data.
+- **Versatility and adaptability**: No vulnerable or critical business data, only random data according to entered parameters.
+- **Error Detection**: Identifies incorrect unit measurements in ERP to ensure accuracy.
+- **Visualization & Finansial Reporting**: Provides clear visual insights and reports on the impact of incorrect data.
+  
+![BOM Analysis](BOM_Analysis.png)
 
 ## Technologies Used
 - **SQLite** - Database management
@@ -34,33 +33,37 @@ The aim of this project to show the impact of incorrect unit measurements in ERP
 ## Results & Impact
 - **Incorrect unit measurements led to overestimated material costs.**
 - **Adjusting values resulted in a 26% reduction in discrepancies.**
-- **Clear visual representations of before-and-after cost analysis.**
+- **Clear visual representations of incorrect vs. correct cost analysis.**
 
 ## How to Run the Project
 1. Clone this repository:
    ```sh
    git clone https://github.com/vsflcn/ERP-Data-Accuracy-Analysis.git
    ```
-2. Install required dependencies:
+2. Install Python from official site:
+   ```
+   https://www.python.org/
+   ```
+4. Install required dependencies:
    ```sh
    pip install pandas matplotlib openpyxl sqlite3
    ```
-3. Run the first script to create database (create_database folder):
+5. Run the first script to create database (create_database folder):
    ```sh
    python create_db.py
    ```
-4. After database creation run the query and create .csv file:
+6. After database creation run the query and create .csv file:
    ```sh
    sql query.sql
    ```
-5. With new .csv file run the following analysis script:
+7. With new .csv file run the following analysis script:
    ```sh
    python analysis.py
    ```
-6. Check the generated reports and visualizations.
+8. Check the generated reports and visualizations.
 
 ## Contribution
-Feel free to contribute by improving the data analysis, adding more accuracy checks, or refining the visualization techniques!
+Feel free to contribute by improving this data analysis!
 
 ## License
 This project is licensed under the MIT License.
