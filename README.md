@@ -1,7 +1,7 @@
 # ERP Data Accuracy Analysis
 
 ## Project Description
-This project identifies and analyzes the impact of incorrect unit measurements in ERP systems and demonstrates how correcting these discrepancies leads to a **26% reduction in financial discrepancies**. The analysis focuses on Bill of Materials (BOM) and material usage data, highlighting the financial impact of incorrect unit measurements on total production costs.
+The aim of this project to show the impact of incorrect unit measurements in ERP systems and how correcting these discrepancies leads to a **26% reduction in financial discrepancies**. 
 
 ![BOM Analysis](BOM_Analysis.png)
 
